@@ -9,3 +9,16 @@ A way of developing a system to extract knowledge from data to perform a task.
 ![Definitions](definitions.png)
 
 ![machines](machine-learning.png)
+
+# PyTorch
+
+PyTorch is an open source machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab (FAIR). It is free and open-source software released under the Modified BSD license. Although the Python interface is more polished and the primary focus of development, PyTorch also has a C++ interface.
+
+**A number of pieces of deep learning software are built on top of PyTorch, including Tesla Autopilot, Uber's Pyro, Hugging Face's Transformers, PyTorch Lightning, and Catalyst.**
+
+## PyTorch provides two high-level features:
+
+- Tensor computing (like NumPy) with strong acceleration via graphics processing units (GPU)
+- Deep neural networks built on a tape-based automatic differentiation system
+
+![PyTorch](pytorch.png)
