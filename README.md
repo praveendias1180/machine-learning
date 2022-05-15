@@ -32,3 +32,9 @@ PyTorch is an open source machine learning framework based on the Torch library,
 # Machine Learning Workflow
 
 ![workflow](workflow.png)
+
+# Google CoLab
+
+https://colab.research.google.com/
+
+![Co Lab](colab.png)
