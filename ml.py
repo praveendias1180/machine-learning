@@ -12,6 +12,7 @@ from sklearn.svm import SVC
 
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import ConfusionMatrixDisplay
 
 from sklearn.tree import DecisionTreeClassifier
 
@@ -29,3 +30,8 @@ svn.fit(X_train, y_train)
 
 predictions = svn.predict(X_test)
 print(accuracy_score(y_test, predictions))
+
+print(classification_report(y_test, predictions))
+
+ConfusionMatrixDisplay.from_predictions(y_test, predictions)
+plt.show()
