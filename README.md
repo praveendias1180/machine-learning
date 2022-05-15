@@ -39,7 +39,7 @@ https://colab.research.google.com/
 
 ![Co Lab](colab.png)
 
-https://colab.research.google.com/drive/1nVmB4EnmD3Z-PwvZZng0cGF322Xmi0Ef?usp=sharing
+https://colab.research.%google.com/drive/1nVmB4EnmD3Z-PwvZZng0cGF322Xmi0Ef?usp=sharing
 
 # Iris Dataset
 
@@ -48,3 +48,7 @@ https://colab.research.google.com/drive/1nVmB4EnmD3Z-PwvZZng0cGF322Xmi0Ef?usp=sh
 # Support Vector Machine
 
 ![SVC](svc.png)
+
+# Accuracy 96.666666666%
+
+![accuracy](accuracy.png)
