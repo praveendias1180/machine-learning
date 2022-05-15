@@ -16,6 +16,10 @@ from sklearn.tree import DecisionTreeClassifier
 col_name = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pd.read_csv('iris.csv', names = col_name)
 
-plt.figure(figsize=(6,6))
-sns.heatmap(dataset.corr(), annot=True, cmap='jet')
-plt.show()
+X = dataset.drop(['class'], axis=1)
+y = dataset['class']
+print(f'X shape: {X.shape} | y shape: {y.shape}')
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=1)
+
+print(X_train, X_test, y_train, y_test)
