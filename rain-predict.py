@@ -11,10 +11,10 @@ rain=0
 no_rain=0
 sz=len(rain_temp)
 for i in range(sz):
-  rain+=abs(rain_temp[i]-new_data_temp)
-  rain+=abs(rain_humidity[i]-new_data_humidity)
-  no_rain+=abs(no_rain_temp[i]-new_data_temp)
-  no_rain+=abs(no_rain_humidity[i]-new_data_humidity)
+  rain+=abs(rain_temp[i]-new_data_temp)**2
+  rain+=abs(rain_humidity[i]-new_data_humidity)**2
+  no_rain+=abs(no_rain_temp[i]-new_data_temp)**2
+  no_rain+=abs(no_rain_humidity[i]-new_data_humidity)**2
 print("Distance to Rain data =", rain)
 print("Distance to No Rain data = ", no_rain)
 
