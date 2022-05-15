@@ -15,4 +15,4 @@ from sklearn.tree import DecisionTreeClassifier
 
 col_name = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pd.read_csv('iris.csv', names = col_name)
-print(dataset)
+print(dataset.describe())
