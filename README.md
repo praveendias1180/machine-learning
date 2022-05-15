@@ -44,3 +44,7 @@ https://colab.research.google.com/drive/1nVmB4EnmD3Z-PwvZZng0cGF322Xmi0Ef?usp=sh
 # Iris Dataset
 
 ![pair plot](pair-plot.png)
+
+# Support Vector Machine
+
+![SVC](svc.png)
