@@ -40,3 +40,7 @@ https://colab.research.google.com/
 ![Co Lab](colab.png)
 
 https://colab.research.google.com/drive/1nVmB4EnmD3Z-PwvZZng0cGF322Xmi0Ef?usp=sharing
+
+# Iris Dataset
+
+![pair plot](pair-plot.png)
