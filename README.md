@@ -28,3 +28,7 @@ PyTorch is an open source machine learning framework based on the Torch library,
 ## No rain today!
 
 ![No rain](no-rain.png)
+
+# Machine Learning Workflow
+
+![workflow](workflow.png)
