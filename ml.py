@@ -16,11 +16,6 @@ from sklearn.tree import DecisionTreeClassifier
 col_name = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pd.read_csv('iris.csv', names = col_name)
 
-sns.violinplot(y='class', x='sepal-length', data=dataset, inner='quartile')
-plt.show()
-sns.violinplot(y='class', x='sepal-width', data=dataset, inner='quartile')
-plt.show()
-sns.violinplot(y='class', x='petal-length', data=dataset, inner='quartile')
-plt.show()
-sns.violinplot(y='class', x='petal-width', data=dataset, inner='quartile')
+plt.figure(figsize=(6,6))
+sns.heatmap(dataset.corr(), annot=True, cmap='jet')
 plt.show()
