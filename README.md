@@ -1,3 +1,7 @@
+# The Certificate
+
+![cert](python-cert-2.png)
+
 # Machine Learning
 
 ## What is machine learning?
