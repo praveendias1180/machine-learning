@@ -8,6 +8,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import StratifiedGroupKFold
 
+from sklearn.svm import SVC
+
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 
@@ -22,4 +24,5 @@ print(f'X shape: {X.shape} | y shape: {y.shape}')
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=1)
 
-print(X_train, X_test, y_train, y_test)
+svn = SVC() # Support Vector Classifier from Support Vector Machine
+svn.fit(X_train, y_train)
