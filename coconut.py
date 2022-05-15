@@ -59,4 +59,12 @@ def compare_prices(product_laughs,product_glomark):
 
 laughs_coconut = 'https://scrape-sm1.github.io/site1/COCONUT%20market1super.html'
 glomark_coconut = 'https://glomark.lk/coconut/p/11624'
+
+laughs_coconut = 'https://scrape-sm1.github.io/site1/FLORA%20FACIAL%20TISSUES%202%20X%20160%20BOX%20-%20HOUSEHOLD%20-%20Categories%20market1super.com.html'
+glomark_coconut = 'https://glomark.lk/flora-facial-tissues-160s/p/10470'
+
+laughs_coconut = 'https://scrape-sm1.github.io/site1/Crimson%20Bread%20Sliced%20market1super.com.html'
+glomark_coconut = 'https://glomark.lk/top-crust-bread/p/13676'
+
+
 compare_prices(laughs_coconut, glomark_coconut)
